@@ -1,0 +1,108 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100%;
+    max-width: 85rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.bg {
+    flex: 1;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+.introContent {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName{
+    color: yellow;
+}
+.introPara{
+    font-size: 18px;
+    font-weight: 80;
+    padding-top:10px;
+}
+.btn{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 0.65rem;
+}
+
+@media (max-width: 768px) {
+
+    #intro {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        gap: 3rem;
+        padding: 1.5rem;
+    }
+
+    .introContent {
+       align-items: center;
+       font-size: 1.8rem;
+       text-align: center;
+       margin-left: 450px;
+       height: 400px;
+       width: 500px;
+        
+    }
+
+    .hello {
+        font-size: 1.2rem;
+    }
+
+    .introPara {
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        max-width: 95%;
+    }
+
+    .bg {
+        flex-shrink: 0;  
+        width: 90%;             
+        max-width: 400px;        
+        height: 300px;
+        width: 500px;
+        border-style: solid;
+        border-color: aliceblue;
+        margin-left: 450px;
+        margin-top: 0px;
+    }
+
+    .btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}
