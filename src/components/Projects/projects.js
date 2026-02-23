@@ -141,19 +141,7 @@ const Projects =() => {
                   </div>
             </div>
 
-            <div className="projectCard">
-                <img src="" alt="" className='' />
-                
-                <div className="">
-                    <span></span>
-                    <span></span>
-                </div>
-                <div className="">
-                    <a href="#" target="" rel=""className=""> 
-                    <img src=""alt=""/>
-                    </a>
-                  </div>
-            </div>
+            
         </div>
     </div>
     
