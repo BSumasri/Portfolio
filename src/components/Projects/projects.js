@@ -143,7 +143,7 @@ const Projects =() => {
 
             <div className="projectCard">
                 <img src="" alt="" className='' />
-                <h3></h3>
+                
                 <div className="">
                     <span></span>
                     <span></span>
